@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="colorPingRed">#FF0099</color>
+	<color name="colorSelected">#ff8000</color>
+	<color name="colorUnselected">#999999</color>
+	<color name="colorWhite">#CFD8DC</color>
+	<color name="colorBlack">#212121</color>
+	<color name="color_fab_orange">#f97910</color>
+	
+	<color name="colorPrimary">#ff8000</color>
+	<color name="colorPrimary_dark">#ff8000</color>
+	<color name="colorPrimary_light">#ff9800</color>
+	<color name="accent">#ff8000</color>
+	<color name="colorAccent">#ff9000</color>
+	<color name="colorPrimary_text">#212121</color>
+	<color name="secondary_text">#757575</color>
+	<color name="icons">#111</color>
+	<color name="divider">#BDBDBD</color>
+	<color name="colorPing">#ff8000</color>
+	<color name="colorSubscription">#ff8000</color>
+	<color name="white">#ffffff</color>
+	<color name="tb">#ffffff</color>
+	<!--    <color name="colorPrimaryDark">#00574B</color>-->
+	<color name="colorPrimaryDark">#ff8000</color>
+	<color name="colorBg">#FFFFFF</color>
+	<color name="colorText">#000000</color>
+	<color name="whites">#000</color>
+	<color name="whitess">#111</color>
+
+	<color name="colorPrimaryByDark">#ff8000</color>
+	<color name="colorPrimaryDarkByDark">#ff8000</color>
+	<color name="colorAccentByDark">#ff8000</color>
+	<color name="colorBgByDark">#ff8000</color>
+	<color name="colorTextByDark">#CCCCCC</color>
+</resources>

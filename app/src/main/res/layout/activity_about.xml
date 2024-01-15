@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+
+    <ScrollView
+        android:scrollbars="none"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scrollingCache="true">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:padding="10.0sp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="2.0sp"
+                app:cardElevation="2.0sp"
+                app:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:paddingTop="10.0sp"
+                    android:paddingBottom="10.0sp"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:paddingLeft="5.0sp"
+                        android:paddingRight="5.0sp"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10.0sp"
+                        android:layout_marginBottom="10.0sp"
+                        android:minHeight="50.0sp">
+
+                        <View
+                            android:layout_width="15.0sp"
+                            android:layout_height="wrap_content"/>
+
+                        <ImageView
+                            android:layout_width="50.0sp"
+                            android:layout_height="50.0sp"
+                            android:src="@drawable/icon"/>
+
+                        <View
+                            android:layout_width="15.0sp"
+                            android:layout_height="wrap_content"/>
+
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                                android:textStyle="bold"
+                                android:textColor="#ff999999"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/app_namesp"/>
+
+                            <TextView
+                                android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+                                android:textColor="#ff999999"
+                                android:autoLink="web"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="V2ray Client For Android"/>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+
+
+
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <View
+                android:layout_width="0.0sp"
+                android:layout_height="10.0sp"/>
+
+
+            <androidx.cardview.widget.CardView
+                android:visibility="visible"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="2.0sp"
+                app:cardElevation="2.0sp"
+                app:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:paddingTop="10.0sp"
+                    android:paddingBottom="10.0sp"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                        android:textStyle="bold"
+                        android:textColor="#ff999999"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15.0sp"
+                        android:layout_marginBottom="10.0sp"
+                        android:text="About the app"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:autoLink="web"
+                        android:textColor="#ff999999"
+                        android:padding="5.0dip"
+                        android:text="@string/abt" />
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+            <View
+                android:layout_width="0.0sp"
+                android:layout_height="10.0sp"/>
+
+            <androidx.cardview.widget.CardView
+                android:visibility="visible"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="2.0sp"
+                app:cardElevation="2.0sp"
+                app:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:paddingTop="10.0sp"
+                    android:paddingBottom="10.0sp"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                        android:textStyle="bold"
+                        android:textColor="#ff999999"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15.0sp"
+                        android:layout_marginBottom="10.0sp"
+                        android:text="Developer"/>
+
+                    <LinearLayout
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:id="@+id/developer"
+                        android:background="?selectableItemBackground"
+                        android:paddingLeft="5.0sp"
+                        android:paddingRight="5.0sp"
+                        android:clickable="true"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:minHeight="50.0sp">
+
+                        <View
+                            android:layout_width="20.0sp"
+                            android:layout_height="wrap_content"/>
+
+                        <ImageButton
+                            android:background="@android:color/transparent"
+                            android:layout_width="40.0sp"
+                            android:layout_height="40.0sp"
+                            app:srcCompat="@drawable/ic_person"
+                            app:tint="#ff999999" />
+
+                        <View
+                            android:layout_width="20.0sp"
+                            android:layout_height="wrap_content"/>
+
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                                android:textColor="#ff999999"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Khaled AGN"/>
+
+                            <TextView
+                                android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+                                android:autoLink="web"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="App Developer"/>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <View
+                android:layout_width="0.0sp"
+                android:layout_height="10.0sp"/>
+            <androidx.cardview.widget.CardView
+                android:visibility="visible"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="2.0sp"
+                app:cardElevation="2.0sp"
+                app:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:paddingTop="10.0sp"
+                    android:paddingBottom="10.0sp"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                        android:textStyle="bold"
+                        android:textColor="#ff999999"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15.0sp"
+                        android:layout_marginBottom="10.0sp"
+                        android:text="Special thanks"/>
+
+                    <LinearLayout
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:id="@+id/developer2"
+                        android:background="?selectableItemBackground"
+                        android:paddingLeft="5.0sp"
+                        android:paddingRight="5.0sp"
+                        android:clickable="true"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:minHeight="50.0sp">
+
+                        <View
+                            android:layout_width="20.0sp"
+                            android:layout_height="wrap_content"/>
+
+                        <ImageButton
+                            android:background="@android:color/transparent"
+                            android:layout_width="40.0sp"
+                            android:layout_height="40.0sp"
+                            app:srcCompat="@drawable/ic_person"
+                            app:tint="#ff999999" />
+
+                        <View
+                            android:layout_width="20.0sp"
+                            android:layout_height="wrap_content"/>
+
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                                android:textColor="#ff999999"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="2dust"/>
+
+                            <TextView
+                                android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+                                android:autoLink="web"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="https://github.com/2dust/v2rayNG/"/>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
+

@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_widget_name">Cambiar</string>
+    <string name="app_tile_name">Cambiar</string>
+    <string name="app_tile_first_use">Primer uso de esta función, utilice la aplicación para agregar el servidor</string>
+    <string name="navigation_drawer_open">Abrir cajón de navegación</string>
+    <string name="navigation_drawer_close">Cerrar el cajón de navegación</string>
+    <string name="migration_success">¡Éxito en la migración de datos!</string>
+    <string name="migration_fail">¡La migración de datos falló!</string>
+
+    <!-- Notifications -->
+    <string name="notification_action_stop_v2ray">Detener</string>
+    <string name="toast_permission_denied">No se puede obtener el permiso</string>
+    <string name="notification_action_more">haga clic para más</string>
+    <string name="toast_services_start">Iniciar servicios</string>
+    <string name="toast_services_stop">Detener servicios</string>
+    <string name="toast_services_success">Iniciar servicios con éxito</string>
+    <string name="toast_services_failure">Error de inicio de servicios</string>
+    <string name="title_privacy_policy">Política de privacidad</string>
+    <!--ServerActivity-->
+    <string name="title_server">Archivo de configuración</string>
+    <string name="menu_item_add_config">Agregar configuración</string>
+    <string name="menu_item_save_config">Guardar configuración</string>
+    <string name="menu_item_del_config">Eliminar configuración</string>
+    <string name="menu_item_import_config_qrcode">Importar configuración desde código QR</string>
+    <string name="menu_item_import_config_clipboard">Importar configuración desde el portapapeles</string>
+    <string name="menu_item_import_config_manually_vmess">Escribe manualmente[Vmess]</string>
+    <string name="menu_item_import_config_manually_vless">Escribe manualmente[VLESS]</string>
+    <string name="menu_item_import_config_manually_ss">Escribe manualmente[Shadowsocks]</string>
+    <string name="menu_item_import_config_manually_socks">Escribe manualmente[Calcetines]</string>
+    <string name="menu_item_import_config_manually_trojan">Escribir manualmente[Troyano]</string>
+    <string name="menu_item_import_config_custom">Configuración personalizada</string>
+    <string name="menu_item_import_config_custom_clipboard">Importar configuración personalizada desde el Portapapeles</string>
+    <string name="menu_item_import_config_custom_local">Importar configuración personalizada desde local</string>
+    <string name="menu_item_import_config_custom_url">Importar configuración personalizada desde URL</string>
+    <string name="menu_item_import_config_custom_url_scan">Importar URL de escaneo de configuración personalizada</string>
+    <string name="del_config_comfirm">¿Confirmar eliminación?</string>
+    <string name="server_lab_remarks">comentarios</string>
+    <string name="server_lab_address">DIRECCIÓN</string>
+    <string name="server_lab_port">puerto</string>
+    <string name="server_lab_id">identificación</string>
+    <string name="server_lab_alterid">alterarId</string>
+    <string name="server_lab_security">seguridad</string>
+    <string name="server_lab_network">Red</string>
+    <string name="server_lab_more_function">Transporte</string>
+    <string name="server_lab_head_type">tipo de cabeza</string>
+    <string name="server_lab_mode_type">modo gRPC</string>
+    <string name="server_lab_request_host">solicitar host(host/ws host/h2 host)/seguridad QUIC</string>
+    <string name="server_lab_path">ruta (ruta ws/ruta h2)/clave QUIC/semilla kcp/nombre de servicio gRPC</string>
+    <string name="server_lab_stream_security">TLS</string>
+    <string name="server_lab_stream_fingerprint" translatable="false">Fingerprint</string>
+    <string name="server_lab_stream_alpn" translatable="false">Alpn</string>
+    <string name="server_lab_allow_insecure">permitirInseguro</string>
+    <string name="server_lab_sni">SNI</string>
+    <string name="server_lab_address3">DIRECCIÓN</string>
+    <string name="server_lab_port3">puerto</string>
+    <string name="server_lab_id3">contraseña</string>
+    <string name="server_lab_security3">seguridad</string>
+    <string name="server_lab_id4">Contraseña (opcional)</string>
+    <string name="server_lab_security4">Usuario (opcional)</string>
+    <string name="server_lab_encryption">cifrado</string>
+    <string name="server_lab_flow">fluir</string>
+    <string name="server_lab_public_key" translatable="false">PublicKey</string>
+    <string name="server_lab_short_id" translatable="false">ShortId</string>
+    <string name="server_lab_spider_x" translatable="false">SpiderX</string>
+    <string name="toast_success">Éxito</string>
+    <string name="toast_failure">Falla</string>
+    <string name="toast_none_data">No hay nada</string>
+    <string name="toast_incorrect_protocol">Protocolo incorrecto</string>
+    <string name="toast_decoding_failed">Falló la decodificación</string>
+    <string name="title_file_chooser">Seleccione un archivo de configuración</string>
+    <string name="toast_require_file_manager">Instale un administrador de archivos.</string>
+    <string name="server_customize_config">Personalizar configuración</string>
+    <string name="toast_config_file_invalid">Configuración no válida</string>
+    <string name="server_lab_content">Contenido</string>
+    <string name="toast_none_data_clipboard">No hay datos en el portapapeles.</string>
+    <string name="toast_invalid_url">URL invalida</string>
+    <string name="server_lab_need_inbound">Asegúrese de que el puerto de entrada sea coherente con la configuración</string>
+    <string name="toast_malformed_josn">Configuración mal formada</string>
+    <string name="server_lab_request_host6">Anfitrión (SNI) (Opcional)</string>
+    <string name="toast_asset_copy_failed">Error al copiar el archivo, utilice el Administrador de archivos</string>
+    <string name="menu_item_add_file">Agregar archivos</string>
+    <string name="menu_item_download_file">Descargar archivos</string>
+
+    <!-- PerAppProxyActivity -->
+    <string name="msg_dialog_progress">Cargando</string>
+    <string name="menu_item_search">Buscar</string>
+    <string name="menu_item_select_all">Seleccionar todo</string>
+    <string name="msg_enter_keywords">Ingrese palabras claves</string>
+    <string name="switch_bypass_apps_mode">Modo de derivación</string>
+    <string name="menu_item_select_proxy_app">Selección automática de aplicación proxy</string>
+    <string name="msg_downloading_content">Descargando contenido</string>
+    <string name="menu_item_export_proxy_app">Exportar al portapapeles</string>
+    <string name="menu_item_import_proxy_app">Importar desde el portapapeles</string>
+
+
+    <!-- Preferences -->
+    <string name="title_settings">Ajustes</string>
+    <string name="title_advanced">Ajustes avanzados</string>
+    <string name="title_vpn_settings">Configuración de VPN</string>
+    <string name="title_pref_per_app_proxy">Proxy por aplicación</string>
+    <string name="summary_pref_per_app_proxy">General: la aplicación marcada es proxy, conexión directa no marcada; \nmodo de derivación: aplicación marcada conectada directamente, proxy no marcado. \nLa opción para seleccionar automáticamente la aplicación proxy en el menú</string>
+
+    <string name="title_pref_mux_enabled">Habilitar Mux</string>
+    <string name="summary_pref_mux_enabled">Habilitar tal vez acelerar la red y cambiar de red tal vez flashear</string>
+
+    <string name="title_pref_speed_enabled">Habilitar visualización de velocidad</string>
+    <string name="summary_pref_speed_enabled">Muestra la velocidad actual en la notificación.\nEl icono de notificación cambiaría según
+         uso.</string>
+
+    <string name="title_pref_sniffing_enabled">Habilitar el rastreo</string>
+    <string name="summary_pref_sniffing_enabled">Intente rastrear el dominio del paquete (activado de forma predeterminada)</string>
+
+    <string name="title_pref_local_dns_enabled">Habilitar DNS local</string>
+    <string name="summary_pref_local_dns_enabled">DNS procesado por el módulo DNS del núcleo (recomendado, si es necesario enrutar evitando LAN y
+         dirección continental)</string>
+
+    <string name="title_pref_fake_dns_enabled">Habilitar DNS falso</string>
+    <string name="summary_pref_fake_dns_enabled">El DNS local devuelve una dirección IP falsa (más rápido, pero puede que no funcione para algunas aplicaciones)</string>
+
+    <string name="title_pref_prefer_ipv6">Prefiero IPv6</string>
+    <string name="summary_pref_prefer_ipv6">Prefiere direcciones y rutas IPv6</string>
+
+    <string name="title_pref_routing">Enrutamiento</string>
+    <string name="title_pref_routing_domain_strategy">estrategia de dominio</string>
+    <string name="title_pref_routing_mode">Reglas predefinidas</string>
+    <string name="title_pref_routing_custom">Reglas personalizadas</string>
+
+    <string name="title_pref_remote_dns">DNS remoto (opcional)</string>
+    <string name="summary_pref_remote_dns">DNS</string>
+
+    <string name="title_pref_vpn_dns">VPN DNS (sólo IPv4/v6)</string>
+
+    <string name="title_pref_domestic_dns">DNS nacional (opcional)</string>
+    <string name="summary_pref_domestic_dns">DNS</string>
+
+    <string name="title_pref_proxy_sharing_enabled">Permitir conexiones desde la LAN</string>
+    <string name="summary_pref_proxy_sharing_enabled">Otros dispositivos pueden conectarse al proxy mediante su dirección IP a través de calcetines/http. Habilítelo solo en una red confiable para evitar conexiones no autorizadas.</string>
+    <string name="toast_warning_pref_proxysharing_short">Permita conexiones desde la LAN. Asegúrese de estar en una red confiable.</string>
+
+    <string name="title_pref_allow_insecure">permitirInseguro</string>
+    <string name="summary_pref_allow_insecure">Cuando TLS, el valor predeterminado es permitirInseguro</string>
+
+    <string name="title_pref_socks_port">Puerto proxy SOCKS5</string>
+    <string name="summary_pref_socks_port">Puerto proxy SOCKS5</string>
+
+    <string name="title_pref_http_port">Puerto proxy HTTP</string>
+    <string name="summary_pref_http_port">Puerto proxy HTTP</string>
+
+    <string name="title_pref_local_dns_port">Puerto DNS local</string>
+    <string name="summary_pref_local_dns_port">Puerto DNS local</string>
+
+    <string name="title_pref_confirm_remove">Eliminar confirmación del archivo de configuración</string>
+    <string name="summary_pref_confirm_remove">La eliminación del archivo de configuración requiere una segunda confirmación por parte del usuario</string>
+
+    <string name="title_pref_start_scan_immediate">Comience a escanear inmediatamente</string>
+    <string name="summary_pref_start_scan_immediate">Abra la cámara para escanear inmediatamente al inicio; de lo contrario, puede optar por escanear el código o seleccionar una foto en la barra de herramientas.</string>
+
+    <string name="title_pref_feedback">Comentario</string>
+    <string name="summary_pref_feedback">Mejoras o errores de comentarios en GitHub</string>
+    <string name="summary_pref_tg_group">Únete al grupo de Telegram</string>
+    <string name="toast_tg_app_not_found">Aplicación de Telegram no encontrada</string>
+
+    <string name="title_pref_promotion">Promoción</string>
+    <string name="summary_pref_promotion">Promoción, haga clic para obtener más detalles (la donación se puede eliminar)</string>
+
+    <string name="title_core_loglevel">Nivel de registro</string>
+    <string name="title_mode">Modo</string>
+    <string name="title_mode_help">Haz clic en mí para obtener más ayuda</string>
+    <string name="title_language">Idioma</string>
+    <string name="title_ui_settings">configuración de la interfaz de usuario</string>
+
+    <string name="title_logcat">logcat</string>
+    <string name="logcat_copy">Copiar</string>
+    <string name="logcat_clear">Claro</string>
+    <string name="title_service_restart">Reinicio del servicio</string>
+    <string name="title_del_all_config">Eliminar todas las configuraciones</string>
+    <string name="title_del_duplicate_config">Eliminar configuración duplicada</string>
+    <string name="title_del_invalid_config">Eliminar configuración no válida (prueba primero)</string>
+    <string name="title_export_all">Exportar configuraciones no personalizadas al portapapeles</string>
+    <string name="title_sub_setting">Configuración del grupo de suscripción</string>
+    <string name="sub_setting_remarks">comentarios</string>
+    <string name="sub_setting_url">URL opcional</string>
+    <string name="sub_setting_enable">habilitar la actualización</string>
+    <string name="title_sub_update">Suscripción de actualización</string>
+    <string name="title_ping_all_server">Tcping toda la configuración</string>
+    <string name="title_real_ping_all_server">Retraso real en toda la configuración.</string>
+    <string name="title_user_asset_setting">Archivos de recursos geográficos</string>
+    <string name="title_sort_by_test_results">Ordenar por resultados de pruebas</string>
+    <string name="title_filter_config">Archivo de configuración del filtro</string>
+    <string name="filter_config_all">Todos los grupos de suscripción</string>
+    <string name="title_del_duplicate_config_count">Eliminar %d configuraciones duplicadas</string>
+    <string name="tasker_start_service">Comienza el servicio</string>
+    <string name="tasker_setting_confirm">Confirmar</string>
+
+    <string name="routing_settings_title">Configuración de enrutamiento</string>
+    <string name="routing_settings_tips">Separados por comas (,), recuerda guardar</string>
+    <string name="routing_settings_save">Ahorrar</string>
+    <string name="routing_settings_delete">Claro</string>
+    <string name="routing_settings_scan_replace">Escanear y reemplazar</string>
+    <string name="routing_settings_scan_append">Escanear y adjuntar</string>
+    <string name="routing_settings_default_rules">establecer reglas de enrutamiento predeterminadas</string>
+
+    <string name="connection_test_pending">Verificar conectividad</string>
+    <string name="connection_test_testing">Pruebas…</string>
+    <string name="connection_test_available">Éxito: la conexión HTTP tomó %dms</string>
+    <string name="connection_test_error">Error al detectar la conexión a Internet: %s</string>
+    <string name="connection_test_fail">Internet no disponible</string>
+    <string name="connection_test_error_status_code">Código de error: #%d</string>
+    <string name="connection_connected">Conectado, toca para comprobar la conexión</string>
+    <string name="connection_not_connected">No conectado</string>
+
+    <string name="import_subscription_success">Suscripción importada exitosamente</string>
+    <string name="import_subscription_failure">Error en la suscripción de importación</string>
+    <string name="about">Acerca de</string>
+    <string name="v2ray_client">Cliente V2ray para Android</string>
+    <string name="about_the_app">Acerca de la aplicación</string>
+    <string name="welcome">¡Bienvenido a la aplicación cliente LuxeV2Ray! Nuestra aplicación le permite conectarse fácilmente a servidores V2Ray, brindando una forma segura y privada de acceder a Internet.</string>
+    <string name="developer">Desarrollador</string>
+    <string name="app_developer">Desarrollador de aplicaciones</string>
+    <string name="special_thanks">Gracias especiales</string>
+    <string name="vpn_hotspot">VPN Hotspot</string>
+    <string name="ip_location">Ubicación IP</string>
+    <string name="proxy_is_running">El proxy está en funcionamiento</string>
+    <string name="proxy_not_running">El proxy no está en funcionamiento</string>
+    <string name="use_system_proxy_as_next_socks_proxy">Usar el proxy del sistema como próximo proxy SOCKS</string>
+    <string name="start">Iniciar</string>
+    <string name="stop">Detener</string>
+    <string name="open_wi_fi_settings">Abrir configuración de Wi-Fi:</string>
+    <string name="ip_192_168_43_1">IP: 192.168.43.1</string>
+    <string name="inside_the_wi_fi_network_settings_look_for_an_option_called_proxy_or_advanced_settings_tap_on_it_and_select_manual_enter_the_proxy_hostname_and_port_number">Dentro de la configuración de la red Wi-Fi, busca una opción llamada \'Proxy\' o \'Configuración avanzada\'. Toca sobre ella y selecciona \'Manual\'. Ingresa el nombre del host del proxy y el número de puerto:</string>
+    <string name="set_proxy_settings">Configurar ajustes de proxy:</string>
+    <string name="under_the_wireless_amp_networ_amp_s_or_connections_section_find_and_tap_on_wi_fi_here_you_ll_see_a_list_of_available_networks_tap_the_wi_fi_network_you_re_connected_to_or_want_to_connect_to"><![CDATA[Bajo la sección \'Inalámbrico y redes\' o \'Conexiones\', busca y toca \'Wi-Fi\'. Aquí, verás una lista de redes disponibles. Toca la red Wi-Fi a la que estás conectado o deseas conectar.]]></string>
+    <string name="select_wi_fi_network">Seleccionar red Wi-Fi:</string>
+    <string name="go_to_your_android_device_s_settings_menu_depending_on_your_device_this_might_be_accessed_through_an_icon_in_the_apps_menu_or_by_pulling_down_the_notification_bar_and_tapping_the_gear_icon">Ve al menú de configuración de tu dispositivo Android. Dependiendo de tu dispositivo, esto podría ser accesible a través de un icono en el menú de aplicaciones o deslizando la barra de notificaciones hacia abajo y tocando el icono de engranaje.</string>
+
+    <string-array name="share_method">
+        <item>Código QR</item>
+        <item>Exportar al portapapeles</item>
+        <item>Exportar la configuración completa al portapapeles</item>
+    </string-array>
+
+    <string-array name="share_sub_method">
+        <item>Código QR</item>
+        <item>Exportar al portapapeles</item>
+    </string-array>
+
+    <string-array name="routing_tag">
+        <item>URL o IP del proxy</item>
+        <item>URL directa o IP</item>
+        <item>URL o IP bloqueada</item>
+    </string-array>
+
+    <string-array name="routing_mode">
+        <item>proxy global</item>
+        <item>Omitir la dirección LAN y luego el proxy</item>
+        <item>Omita la dirección continental y luego el proxy</item>
+        <item>Omitiendo la dirección LAN y continental y luego el proxy</item>
+        <item>Directo global</item>
+    </string-array>
+
+    <string-array name="mode_entries">
+        <item>VPN</item>
+        <item>Sólo proxy</item>
+    </string-array>
+
+</resources>

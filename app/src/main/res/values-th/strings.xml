@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_widget_name">สวิตช์</string>
+    <string name="app_tile_name">สวิตช์</string>
+    <string name="app_tile_first_use">การใช้งานคุณสมบัตินี้ครั้งแรก โปรดใช้แอปเพื่อเพิ่มเซิร์ฟเวอร์</string>
+    <string name="navigation_drawer_open">เปิดลิ้นชักการนำทาง</string>
+    <string name="navigation_drawer_close">ปิดแถบเมนูเลื่อนด้านข้าง</string>
+    <string name="migration_success">การย้ายข้อมูลประสบความสำเร็จ!</string>
+    <string name="migration_fail">การย้ายข้อมูลล้มเหลว!</string>
+
+    <!-- Notifications -->
+    <string name="notification_action_stop_v2ray">หยุด</string>
+    <string name="toast_permission_denied">ไม่สามารถรับใบอนุญาตได้</string>
+    <string name="notification_action_more">คลิกเพื่อดูเพิ่มเติม</string>
+    <string name="toast_services_start">เริ่มบริการ</string>
+    <string name="toast_services_stop">หยุดบริการ</string>
+    <string name="toast_services_success">เริ่มบริการที่ประสบความสำเร็จ</string>
+    <string name="toast_services_failure">เริ่มบริการล้มเหลว</string>
+    <string name="title_privacy_policy">นโยบายความเป็นส่วนตัว</string>
+    <!--ServerActivity-->
+    <string name="title_server">ไฟล์การกำหนดค่า</string>
+    <string name="menu_item_add_config">เพิ่มการกำหนดค่า</string>
+    <string name="menu_item_save_config">บันทึกการกำหนดค่า</string>
+    <string name="menu_item_del_config">ลบการกำหนดค่า</string>
+    <string name="menu_item_import_config_qrcode">นำเข้าการกำหนดค่าจาก QRcode</string>
+    <string name="menu_item_import_config_clipboard">นำเข้าการกำหนดค่าจากคลิปบอร์ด</string>
+    <string name="menu_item_import_config_manually_vmess">พิมพ์ด้วยตนเอง[Vmess]</string>
+    <string name="menu_item_import_config_manually_vless">พิมพ์ด้วยตนเอง[VLESS]</string>
+    <string name="menu_item_import_config_manually_ss">พิมพ์ด้วยตนเอง[Shadowsocks]</string>
+    <string name="menu_item_import_config_manually_socks">พิมพ์ด้วยตนเอง[ถุงเท้า]</string>
+    <string name="menu_item_import_config_manually_trojan">พิมพ์ด้วยตนเอง[โทรจัน]</string>
+    <string name="menu_item_import_config_custom">การกำหนดค่าแบบกำหนดเอง</string>
+    <string name="menu_item_import_config_custom_clipboard">นำเข้าการกำหนดค่าที่กำหนดเองจากคลิปบอร์ด</string>
+    <string name="menu_item_import_config_custom_local">นำเข้าการกำหนดค่าที่กำหนดเองจากภายในเครื่อง</string>
+    <string name="menu_item_import_config_custom_url">นำเข้าการกำหนดค่าที่กำหนดเองจาก URL</string>
+    <string name="menu_item_import_config_custom_url_scan">นำเข้า URL การสแกนการกำหนดค่าที่กำหนดเอง</string>
+    <string name="del_config_comfirm">ยืนยันการลบ?</string>
+    <string name="server_lab_remarks">หมายเหตุ</string>
+    <string name="server_lab_address">ที่อยู่</string>
+    <string name="server_lab_port">ท่าเรือ</string>
+    <string name="server_lab_id">รหัส</string>
+    <string name="server_lab_alterid">แก้ไขรหัส</string>
+    <string name="server_lab_security">ความปลอดภัย</string>
+    <string name="server_lab_network">เครือข่าย</string>
+    <string name="server_lab_more_function">ขนส่ง</string>
+    <string name="server_lab_head_type">ประเภทหัว</string>
+    <string name="server_lab_mode_type">โหมดจีอาร์พีซี</string>
+    <string name="server_lab_request_host">ร้องขอโฮสต์ (โฮสต์ /โฮสต์ ws / โฮสต์ h2) / ความปลอดภัย QUIC</string>
+    <string name="server_lab_path">เส้นทาง (เส้นทาง ws /เส้นทาง h2) / คีย์ QUIC / เมล็ด kcp / ชื่อบริการ gRPC</string>
+    <string name="server_lab_stream_security">ทลส</string>
+    <string name="server_lab_stream_fingerprint" translatable="false">Fingerprint</string>
+    <string name="server_lab_stream_alpn" translatable="false">Alpn</string>
+    <string name="server_lab_allow_insecure">อนุญาตไม่ปลอดภัย</string>
+    <string name="server_lab_sni">สนิ</string>
+    <string name="server_lab_address3">ที่อยู่</string>
+    <string name="server_lab_port3">ท่าเรือ</string>
+    <string name="server_lab_id3">รหัสผ่าน</string>
+    <string name="server_lab_security3">ความปลอดภัย</string>
+    <string name="server_lab_id4">รหัสผ่าน (ไม่บังคับ)</string>
+    <string name="server_lab_security4">ผู้ใช้(ไม่บังคับ)</string>
+    <string name="server_lab_encryption">การเข้ารหัส</string>
+    <string name="server_lab_flow">ไหล</string>
+    <string name="server_lab_public_key" translatable="false">PublicKey</string>
+    <string name="server_lab_short_id" translatable="false">ShortId</string>
+    <string name="server_lab_spider_x" translatable="false">SpiderX</string>
+    <string name="toast_success">ความสำเร็จ</string>
+    <string name="toast_failure">ความล้มเหลว</string>
+    <string name="toast_none_data">ไม่มีอะไร</string>
+    <string name="toast_incorrect_protocol">โปรโตคอลไม่ถูกต้อง</string>
+    <string name="toast_decoding_failed">การถอดรหัสล้มเหลว</string>
+    <string name="title_file_chooser">เลือกไฟล์กำหนดค่า</string>
+    <string name="toast_require_file_manager">กรุณาติดตั้งตัวจัดการไฟล์</string>
+    <string name="server_customize_config">ปรับแต่งคอนฟิก</string>
+    <string name="toast_config_file_invalid">การกำหนดค่าไม่ถูกต้อง</string>
+    <string name="server_lab_content">เนื้อหา</string>
+    <string name="toast_none_data_clipboard">ไม่มีข้อมูลในคลิปบอร์ด</string>
+    <string name="toast_invalid_url">URL ไม่ถูกต้อง</string>
+    <string name="server_lab_need_inbound">ตรวจสอบให้แน่ใจว่าพอร์ตขาเข้าสอดคล้องกับการตั้งค่า</string>
+    <string name="toast_malformed_josn">การกำหนดค่ามีรูปแบบไม่ถูกต้อง</string>
+    <string name="server_lab_request_host6">โฮสต์ (SNI) (ไม่บังคับ)</string>
+    <string name="toast_asset_copy_failed">การคัดลอกไฟล์ล้มเหลว โปรดใช้ตัวจัดการไฟล์</string>
+    <string name="menu_item_add_file">เพิ่มไฟล์</string>
+    <string name="menu_item_download_file">ดาวน์โหลดไฟล์</string>
+
+    <!-- PerAppProxyActivity -->
+    <string name="msg_dialog_progress">กำลังโหลด</string>
+    <string name="menu_item_search">ค้นหา</string>
+    <string name="menu_item_select_all">เลือกทั้งหมด</string>
+    <string name="msg_enter_keywords">ป้อนคำหลัก</string>
+    <string name="switch_bypass_apps_mode">โหมดบายพาส</string>
+    <string name="menu_item_select_proxy_app">เลือกแอปพร็อกซีอัตโนมัติ</string>
+    <string name="msg_downloading_content">กำลังดาวน์โหลดเนื้อหา</string>
+    <string name="menu_item_export_proxy_app">ส่งออกไปยังคลิปบอร์ด</string>
+    <string name="menu_item_import_proxy_app">นำเข้าจากคลิปบอร์ด</string>
+
+
+    <!-- Preferences -->
+    <string name="title_settings">การตั้งค่า</string>
+    <string name="title_advanced">ตั้งค่าขั้นสูง</string>
+    <string name="title_vpn_settings">การตั้งค่า VPN</string>
+    <string name="title_pref_per_app_proxy">พร็อกซีต่อแอป</string>
+    <string name="summary_pref_per_app_proxy">ทั่วไป: แอปที่เลือกคือพร็อกซี การเชื่อมต่อโดยตรงที่ไม่ได้ตรวจสอบ \nโหมดบายพาส: เลือกแอปที่เชื่อมต่อโดยตรง ไม่เลือกพร็อกซี \nตัวเลือกในการเลือกแอปพลิเคชันพร็อกซีในเมนูโดยอัตโนมัติ</string>
+
+    <string name="title_pref_mux_enabled">เปิดใช้งานมิวซ์</string>
+    <string name="summary_pref_mux_enabled">เปิดใช้งานอาจเพิ่มความเร็วเครือข่ายและสลับเครือข่ายอาจกะพริบ</string>
+
+    <string name="title_pref_speed_enabled">เปิดใช้งานการแสดงความเร็ว</string>
+    <string name="summary_pref_speed_enabled">แสดงความเร็วปัจจุบันในการแจ้งเตือน\nไอคอนการแจ้งเตือนจะเปลี่ยนไปตาม
+         การใช้งาน</string>
+
+    <string name="title_pref_sniffing_enabled">เปิดใช้งานการดมกลิ่น</string>
+    <string name="summary_pref_sniffing_enabled">ลองดมโดเมนจากแพ็กเก็ต (ค่าเริ่มต้นเปิด)</string>
+
+    <string name="title_pref_local_dns_enabled">เปิดใช้งาน DNS ในเครื่อง</string>
+    <string name="summary_pref_local_dns_enabled">DNS ที่ประมวลผลโดยโมดูล DNS ของคอร์ (แนะนำ หากจำเป็นต้องกำหนดเส้นทาง Bypassing LAN และ
+         ที่อยู่แผ่นดินใหญ่)</string>
+
+    <string name="title_pref_fake_dns_enabled">เปิดใช้งาน DNS ปลอม</string>
+    <string name="summary_pref_fake_dns_enabled">DNS ในเครื่องส่งคืนที่อยู่ IP ปลอม (เร็วกว่า แต่อาจใช้ไม่ได้กับบางแอป)</string>
+
+    <string name="title_pref_prefer_ipv6">ชอบ IPv6</string>
+    <string name="summary_pref_prefer_ipv6">ต้องการที่อยู่และเส้นทาง IPv6</string>
+
+    <string name="title_pref_routing">การกำหนดเส้นทาง</string>
+    <string name="title_pref_routing_domain_strategy">กลยุทธ์โดเมน</string>
+    <string name="title_pref_routing_mode">กฎที่กำหนดไว้ล่วงหน้า</string>
+    <string name="title_pref_routing_custom">กฎที่กำหนดเอง</string>
+
+    <string name="title_pref_remote_dns">DNS ระยะไกล (ไม่จำเป็น)</string>
+    <string name="summary_pref_remote_dns">DNS</string>
+
+    <string name="title_pref_vpn_dns">VPN DNS (เฉพาะ IPv4/v6)</string>
+
+    <string name="title_pref_domestic_dns">DNS ภายในประเทศ (ไม่บังคับ)</string>
+    <string name="summary_pref_domestic_dns">DNS</string>
+
+    <string name="title_pref_proxy_sharing_enabled">อนุญาตการเชื่อมต่อจาก LAN</string>
+    <string name="summary_pref_proxy_sharing_enabled">อุปกรณ์อื่นสามารถเชื่อมต่อกับพร็อกซีด้วยที่อยู่ IP ของคุณผ่านถุงเท้า/http เปิดใช้งานเฉพาะในเครือข่ายที่เชื่อถือได้เท่านั้นเพื่อหลีกเลี่ยงการเชื่อมต่อที่ไม่ได้รับอนุญาต</string>
+    <string name="toast_warning_pref_proxysharing_short">อนุญาตการเชื่อมต่อจาก LAN ตรวจสอบให้แน่ใจว่าคุณอยู่ในเครือข่ายที่เชื่อถือได้</string>
+
+    <string name="title_pref_allow_insecure">อนุญาตไม่ปลอดภัย</string>
+    <string name="summary_pref_allow_insecure">เมื่อ TLS ค่าเริ่มต้นจะอนุญาตไม่ปลอดภัย</string>
+
+    <string name="title_pref_socks_port">พอร์ตพร็อกซี SOCKS5</string>
+    <string name="summary_pref_socks_port">พอร์ตพร็อกซี SOCKS5</string>
+
+    <string name="title_pref_http_port">พอร์ตพร็อกซี HTTP</string>
+    <string name="summary_pref_http_port">พอร์ตพร็อกซี HTTP</string>
+
+    <string name="title_pref_local_dns_port">พอร์ต DNS ในเครื่อง</string>
+    <string name="summary_pref_local_dns_port">พอร์ต DNS ในเครื่อง</string>
+
+    <string name="title_pref_confirm_remove">ลบการยืนยันไฟล์การกำหนดค่า</string>
+    <string name="summary_pref_confirm_remove">การลบไฟล์การกำหนดค่าต้องได้รับการยืนยันครั้งที่สองจากผู้ใช้หรือไม่</string>
+
+    <string name="title_pref_start_scan_immediate">เริ่มการสแกนทันที</string>
+    <string name="summary_pref_start_scan_immediate">เปิดกล้องเพื่อสแกนทันทีเมื่อเริ่มต้น หรือคุณสามารถเลือกสแกนโค้ดหรือเลือกภาพถ่ายในแถบเครื่องมือได้</string>
+
+    <string name="title_pref_feedback">ข้อเสนอแนะ</string>
+    <string name="summary_pref_feedback">การปรับปรุงผลตอบรับหรือข้อบกพร่องใน GitHub</string>
+    <string name="summary_pref_tg_group">เข้าร่วมกลุ่มโทรเลข</string>
+    <string name="toast_tg_app_not_found">ไม่พบแอป Telegram</string>
+
+    <string name="title_pref_promotion">การส่งเสริม</string>
+    <string name="summary_pref_promotion">โปรโมชั่น คลิกดูรายละเอียด(การบริจาคสามารถถอนออกได้)</string>
+
+    <string name="title_core_loglevel">ระดับบันทึก</string>
+    <string name="title_mode">โหมด</string>
+    <string name="title_mode_help">คลิกฉันเพื่อขอความช่วยเหลือเพิ่มเติม</string>
+    <string name="title_language">ภาษา</string>
+    <string name="title_ui_settings">การตั้งค่า UI</string>
+
+    <string name="title_logcat">ล็อกแคท</string>
+    <string name="logcat_copy">สำเนา</string>
+    <string name="logcat_clear">ชัดเจน</string>
+    <string name="title_service_restart">เริ่มบริการใหม่</string>
+    <string name="title_del_all_config">ลบการกำหนดค่าทั้งหมด</string>
+    <string name="title_del_duplicate_config">ลบการกำหนดค่าที่ซ้ำกัน</string>
+    <string name="title_del_invalid_config">ลบการกำหนดค่าที่ไม่ถูกต้อง (ทดสอบก่อน)</string>
+    <string name="title_export_all">ส่งออกการกำหนดค่าที่ไม่ได้กำหนดเองไปยังคลิปบอร์ด</string>
+    <string name="title_sub_setting">การตั้งค่ากลุ่มสมัครสมาชิก</string>
+    <string name="sub_setting_remarks">หมายเหตุ</string>
+    <string name="sub_setting_url">URL ทางเลือก</string>
+    <string name="sub_setting_enable">เปิดใช้งานการอัปเดต</string>
+    <string name="title_sub_update">อัปเดตการสมัครสมาชิก</string>
+    <string name="title_ping_all_server">กำลังปรับแต่งการกำหนดค่าทั้งหมด</string>
+    <string name="title_real_ping_all_server">ล่าช้าจริง ๆ การกำหนดค่าทั้งหมด</string>
+    <string name="title_user_asset_setting">ไฟล์สินทรัพย์ทางภูมิศาสตร์</string>
+    <string name="title_sort_by_test_results">จัดเรียงตามผลการทดสอบ</string>
+    <string name="title_filter_config">ไฟล์การกำหนดค่าตัวกรอง</string>
+    <string name="filter_config_all">กลุ่มสมาชิกทั้งหมด</string>
+    <string name="title_del_duplicate_config_count">ลบ %d การกำหนดค่าที่ซ้ำกัน</string>
+    <string name="tasker_start_service">เริ่มบริการ</string>
+    <string name="tasker_setting_confirm">ยืนยัน</string>
+
+    <string name="routing_settings_title">การตั้งค่าเส้นทาง</string>
+    <string name="routing_settings_tips">คั่นด้วยเครื่องหมายจุลภาค (,) อย่าลืมบันทึก</string>
+    <string name="routing_settings_save">บันทึก</string>
+    <string name="routing_settings_delete">ชัดเจน</string>
+    <string name="routing_settings_scan_replace">สแกนและเปลี่ยน</string>
+    <string name="routing_settings_scan_append">สแกนและต่อท้าย</string>
+    <string name="routing_settings_default_rules">ตั้งค่ากฎการกำหนดเส้นทางเริ่มต้น</string>
+
+    <string name="connection_test_pending">ตรวจสอบการเชื่อมต่อ</string>
+    <string name="connection_test_testing">กำลังทดสอบ...</string>
+    <string name="connection_test_available">สำเร็จ: การเชื่อมต่อ HTTP ใช้เวลา %dms</string>
+    <string name="connection_test_error">ไม่สามารถตรวจพบการเชื่อมต่ออินเทอร์เน็ต: %s</string>
+    <string name="connection_test_fail">อินเทอร์เน็ตไม่พร้อมใช้งาน</string>
+    <string name="connection_test_error_status_code">รหัสข้อผิดพลาด: #%d</string>
+    <string name="connection_connected">เชื่อมต่อแล้ว แตะเพื่อตรวจสอบการเชื่อมต่อ</string>
+    <string name="connection_not_connected">ไม่ได้เชื่อมต่อ</string>
+
+    <string name="import_subscription_success">นำเข้าการสมัครสมาชิกสำเร็จแล้ว</string>
+    <string name="import_subscription_failure">การสมัครสมาชิกการนำเข้าล้มเหลว</string>
+    <string name="about">เกี่ยวกับ</string>
+    <string name="v2ray_client">ไคลเอนต์ V2ray สำหรับ Android</string>
+    <string name="about_the_app">เกี่ยวกับแอพ</string>
+    <string name="welcome">ยินดีต้อนรับสู่แอปไคลเอ็นต์ LuxeV2Ray! แอพของเราช่วยให้คุณเชื่อมต่อกับเซิร์ฟเวอร์ V2Ray ได้อย่างง่ายดาย มอบวิธีการเข้าถึงอินเทอร์เน็ตที่ปลอดภัยและเป็นส่วนตัว</string>
+    <string name="developer">นักพัฒนา</string>
+    <string name="app_developer">นักพัฒนาแอป</string>
+    <string name="special_thanks">ขอขอบคุณเป็นพิเศษ</string>
+    <string name="vpn_hotspot">VPN Hotspot</string>
+    <string name="ip_location">ตำแหน่ง IP</string>
+    <string name="proxy_is_running">พร็อกซีทำงานอยู่</string>
+    <string name="proxy_not_running">พร็อกซีไม่ทำงาน</string>
+    <string name="use_system_proxy_as_next_socks_proxy">ใช้โปรก์ซีของระบบเป็น Socks Proxy ถัดไป</string>
+    <string name="start">เริ่ม</string>
+    <string name="stop">หยุด</string>
+    <string name="open_wi_fi_settings">เปิดการตั้งค่า Wi-Fi:</string>
+    <string name="ip_192_168_43_1">IP: 192.168.43.1</string>
+    <string name="inside_the_wi_fi_network_settings_look_for_an_option_called_proxy_or_advanced_settings_tap_on_it_and_select_manual_enter_the_proxy_hostname_and_port_number">ภายในการตั้งค่าเครือข่าย Wi-Fi ค้นหาตัวเลือกที่เรียกว่า \'พร็อกซี\' หรือ \'การตั้งค่าขั้นสูง\' แตะที่นั้นและเลือก \'คู่มือ\' ป้อนชื่อโฮสต์และหมายเลขพอร์ตของพร็อกซี:</string>
+    <string name="set_proxy_settings">ตั้งค่าพร็อกซี:</string>
+    <string name="under_the_wireless_amp_networ_amp_s_or_connections_section_find_and_tap_on_wi_fi_here_you_ll_see_a_list_of_available_networks_tap_the_wi_fi_network_you_re_connected_to_or_want_to_connect_to"><![CDATA[ภายใต้ส่วน \'เครือข่ายไร้สายและเครือข่าย\' หรือ \'การเชื่อมต่อ\' ค้นหาและแตะที่ \'Wi-Fi\' ที่นี่คุณจะเห็นรายการของเครือข่ายที่ใช้ได้ แตะที่เครือข่าย Wi-Fi ที่คุณเชื่อมต่อหรือต้องการเชื่อมต่อ]]></string>
+    <string name="select_wi_fi_network">เลือกเครือข่าย Wi-Fi:</string>
+    <string name="go_to_your_android_device_s_settings_menu_depending_on_your_device_this_might_be_accessed_through_an_icon_in_the_apps_menu_or_by_pulling_down_the_notification_bar_and_tapping_the_gear_icon">ไปที่เมนูการตั้งค่าของอุปกรณ์ Android ของคุณ ขึ้นอยู่กับอุปกรณ์ของคุณ นี้อาจถูกเข้าถึงผ่านไอคอนในเมนูแอปหรือโดยการลากรายการแถบการแจ้งเตือนลงและแตะไอคอนเฮียร์</string>
+
+    <string-array name="share_method">
+        <item>คิวอาร์โค้ด</item>
+        <item>ส่งออกไปยังคลิปบอร์ด</item>
+        <item>ส่งออกการกำหนดค่าแบบเต็มไปยังคลิปบอร์ด</item>
+    </string-array>
+
+    <string-array name="share_sub_method">
+        <item>คิวอาร์โค้ด</item>
+        <item>ส่งออกไปยังคลิปบอร์ด</item>
+    </string-array>
+
+    <string-array name="routing_tag">
+        <item>URL พร็อกซีหรือ IP</item>
+        <item>URL โดยตรงหรือ IP</item>
+        <item>URL หรือ IP ที่ถูกบล็อก</item>
+    </string-array>
+
+    <string-array name="routing_mode">
+        <item>พร็อกซีทั่วโลก</item>
+        <item>ข้ามที่อยู่ LAN จากนั้นพร็อกซี</item>
+        <item>บายพาสที่อยู่แผ่นดินใหญ่แล้วพร็อกซี</item>
+        <item>ข้าม LAN และที่อยู่บนแผ่นดินใหญ่แล้วจึงใช้พรอกซี</item>
+        <item>โดยตรงระดับโลก</item>
+    </string-array>
+
+    <string-array name="mode_entries">
+        <item>VPN</item>
+        <item>หนังสือมอบฉันทะเท่านั้น</item>
+    </string-array>
+
+</resources>

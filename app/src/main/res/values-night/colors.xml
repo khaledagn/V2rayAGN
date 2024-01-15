@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ff8000</color>
+    <color name="colorPrimary_dark">#ff8000</color>
+    <color name="colorPrimary_light">#ff9800</color>
+    <color name="accent">#ff8000</color>
+    <color name="colorAccent">#ff9000</color>
+    <color name="colorPrimary_text">#fff</color>
+    <color name="white">#222</color>
+    <color name="whites">#fff</color>
+    <color name="whitess">#f9f9f9</color>
+    <color name="tb">#303030</color>
+</resources>

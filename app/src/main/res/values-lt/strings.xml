@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_widget_name">Perjungti</string>
+    <string name="app_tile_name">Perjungti</string>
+    <string name="app_tile_first_use">Pirmą kartą naudodami šią funkciją, naudokite programą, kad pridėtumėte serverį</string>
+    <string name="navigation_drawer_open">Atidarykite naršymo stalčių</string>
+    <string name="navigation_drawer_close">Uždarykite naršymo stalčių</string>
+    <string name="migration_success">Duomenų perkėlimas sėkmingas!</string>
+    <string name="migration_fail">Nepavyko perkelti duomenų!</string>
+
+    <!-- Notifications -->
+    <string name="notification_action_stop_v2ray">Sustabdyti</string>
+    <string name="toast_permission_denied">Nepavyko gauti leidimo</string>
+    <string name="notification_action_more">spustelėkite norėdami daugiau</string>
+    <string name="toast_services_start">Pradėti Paslaugas</string>
+    <string name="toast_services_stop">Sustabdyti paslaugas</string>
+    <string name="toast_services_success">Pradėti paslaugų sėkmę</string>
+    <string name="toast_services_failure">Paslaugų gedimas</string>
+    <string name="title_privacy_policy">Privatumo politika</string>
+    <!--ServerActivity-->
+    <string name="title_server">Konfigūracijos failas</string>
+    <string name="menu_item_add_config">Pridėti konfigūraciją</string>
+    <string name="menu_item_save_config">Išsaugoti konfigūraciją</string>
+    <string name="menu_item_del_config">Ištrinti konfigūraciją</string>
+    <string name="menu_item_import_config_qrcode">Importuoti konfigūraciją iš QR kodo</string>
+    <string name="menu_item_import_config_clipboard">Importuoti konfigūraciją iš mainų srities</string>
+    <string name="menu_item_import_config_manually_vmess">Įveskite rankiniu būdu [Vmess]</string>
+    <string name="menu_item_import_config_manually_vless">Įveskite rankiniu būdu[VLESS]</string>
+    <string name="menu_item_import_config_manually_ss">Įveskite rankiniu būdu [Shadowsocks]</string>
+    <string name="menu_item_import_config_manually_socks">Įveskite rankiniu būdu [kojinės]</string>
+    <string name="menu_item_import_config_manually_trojan">Įveskite rankiniu būdu [Trojos arklys]</string>
+    <string name="menu_item_import_config_custom">Pasirinktinė konfigūracija</string>
+    <string name="menu_item_import_config_custom_clipboard">Importuokite pasirinktinę konfigūraciją iš mainų srities</string>
+    <string name="menu_item_import_config_custom_local">Importuokite tinkintą konfigūraciją iš vietos</string>
+    <string name="menu_item_import_config_custom_url">Importuokite tinkintą konfigūraciją iš URL</string>
+    <string name="menu_item_import_config_custom_url_scan">Importuokite tinkintos konfigūracijos nuskaitymo URL</string>
+    <string name="del_config_comfirm">Patvirtinti ištrynimą?</string>
+    <string name="server_lab_remarks">pastabas</string>
+    <string name="server_lab_address">adresu</string>
+    <string name="server_lab_port">uostas</string>
+    <string name="server_lab_id">id</string>
+    <string name="server_lab_alterid">alterId</string>
+    <string name="server_lab_security">saugumo</string>
+    <string name="server_lab_network">Tinklas</string>
+    <string name="server_lab_more_function">Transportas</string>
+    <string name="server_lab_head_type">galvos tipas</string>
+    <string name="server_lab_mode_type">grRPC režimas</string>
+    <string name="server_lab_request_host">užklausa pagrindinio kompiuterio (host/ws host/h2 host)/QUIC saugumo</string>
+    <string name="server_lab_path">kelias (ws kelias/h2 kelias)/QUIC raktas/kcp seed/gRPC paslaugos pavadinimas</string>
+    <string name="server_lab_stream_security">TLS</string>
+    <string name="server_lab_stream_fingerprint" translatable="false">Fingerprint</string>
+    <string name="server_lab_stream_alpn" translatable="false">Alpn</string>
+    <string name="server_lab_allow_insecure">leisti Nesaugus</string>
+    <string name="server_lab_sni">SNI</string>
+    <string name="server_lab_address3">adresu</string>
+    <string name="server_lab_port3">uostas</string>
+    <string name="server_lab_id3">Slaptažodis</string>
+    <string name="server_lab_security3">saugumo</string>
+    <string name="server_lab_id4">Slaptažodis (neprivaloma)</string>
+    <string name="server_lab_security4">Naudotojas (neprivaloma)</string>
+    <string name="server_lab_encryption">šifravimas</string>
+    <string name="server_lab_flow">srautas</string>
+    <string name="server_lab_public_key" translatable="false">PublicKey</string>
+    <string name="server_lab_short_id" translatable="false">ShortId</string>
+    <string name="server_lab_spider_x" translatable="false">SpiderX</string>
+    <string name="toast_success">Sėkmė</string>
+    <string name="toast_failure">Nesėkmė</string>
+    <string name="toast_none_data">Nieko nėra</string>
+    <string name="toast_incorrect_protocol">Neteisingas protokolas</string>
+    <string name="toast_decoding_failed">Dekodavimas nepavyko</string>
+    <string name="title_file_chooser">Pasirinkite konfigūracijos failą</string>
+    <string name="toast_require_file_manager">Įdiekite failų tvarkyklę.</string>
+    <string name="server_customize_config">Tinkinti konfigūraciją</string>
+    <string name="toast_config_file_invalid">Netinkama konfigūracija</string>
+    <string name="server_lab_content">Turinys</string>
+    <string name="toast_none_data_clipboard">Iškarpinėje nėra duomenų</string>
+    <string name="toast_invalid_url">neteisingas URL</string>
+    <string name="server_lab_need_inbound">Įsitikinkite, kad įeinantis prievadas atitinka nustatymus</string>
+    <string name="toast_malformed_josn">Netinkamai suformuota konfigūracija</string>
+    <string name="server_lab_request_host6">Priegloba (SNI) (pasirenkama)</string>
+    <string name="toast_asset_copy_failed">Failo kopijavimas nepavyko, naudokite failų tvarkyklę</string>
+    <string name="menu_item_add_file">Pridėti failus</string>
+    <string name="menu_item_download_file">Parsisiųsti failus</string>
+
+    <!-- PerAppProxyActivity -->
+    <string name="msg_dialog_progress">Įkeliama</string>
+    <string name="menu_item_search">Paieška</string>
+    <string name="menu_item_select_all">Pasirinkti viską</string>
+    <string name="msg_enter_keywords">Įveskite raktinius žodžius</string>
+    <string name="switch_bypass_apps_mode">Apėjimo režimas</string>
+    <string name="menu_item_select_proxy_app">Automatiškai pasirinkite tarpinio serverio programą</string>
+    <string name="msg_downloading_content">Atsisiunčiamas turinys</string>
+    <string name="menu_item_export_proxy_app">Eksportuoti į mainų sritį</string>
+    <string name="menu_item_import_proxy_app">Importuoti iš mainų srities</string>
+
+
+    <!-- Preferences -->
+    <string name="title_settings">Nustatymai</string>
+    <string name="title_advanced">Pažangūs nustatymai</string>
+    <string name="title_vpn_settings">VPN nustatymai</string>
+    <string name="title_pref_per_app_proxy">Programos tarpinis serveris</string>
+    <string name="summary_pref_per_app_proxy">Bendra: Pažymėta programa yra tarpinis serveris, nepažymėtas tiesioginis ryšys; \napėjimo režimas: pažymėta programa prijungta tiesiogiai, tarpinis serveris nepažymėtas. \nParinktis automatiškai pasirinkti tarpinio serverio programą meniu</string>
+
+    <string name="title_pref_mux_enabled">Įgalinti Mux</string>
+    <string name="summary_pref_mux_enabled">Įgalinti galbūt pagreitinti tinklą ir perjungti tinklą, galbūt „flash“.</string>
+
+    <string name="title_pref_speed_enabled">Įgalinti greičio rodymą</string>
+    <string name="summary_pref_speed_enabled">Pranešime rodyti esamą greitį.\nPranešimo piktograma pasikeis atsižvelgiant į
+         naudojimas.</string>
+
+    <string name="title_pref_sniffing_enabled">Įgalinti uostymą</string>
+    <string name="summary_pref_sniffing_enabled">Pabandykite užuosti domeną iš paketo (numatytasis įjungtas)</string>
+
+    <string name="title_pref_local_dns_enabled">Įgalinti vietinį DNS</string>
+    <string name="summary_pref_local_dns_enabled">DNS apdoroja branduolio DNS modulis (rekomenduojama, jei reikia nukreipti apeinant LAN ir
+         žemyno adresas)</string>
+
+    <string name="title_pref_fake_dns_enabled">Įgalinti netikrą DNS</string>
+    <string name="summary_pref_fake_dns_enabled">vietinis DNS grąžina netikrą IP adresą (greičiau, bet kai kuriose programose jis gali neveikti)</string>
+
+    <string name="title_pref_prefer_ipv6">Pirmenybė teikiama IPv6</string>
+    <string name="summary_pref_prefer_ipv6">Pirmenybę teikite IPv6 adresui ir maršrutams</string>
+
+    <string name="title_pref_routing">Maršrutas</string>
+    <string name="title_pref_routing_domain_strategy">Domeno strategija</string>
+    <string name="title_pref_routing_mode">Iš anksto nustatytos taisyklės</string>
+    <string name="title_pref_routing_custom">Individualios taisyklės</string>
+
+    <string name="title_pref_remote_dns">Nuotolinis DNS (neprivaloma)</string>
+    <string name="summary_pref_remote_dns">DNS</string>
+
+    <string name="title_pref_vpn_dns">VPN DNS (tik IPv4 /v6)</string>
+
+    <string name="title_pref_domestic_dns">Vietinis DNS (pasirenkama)</string>
+    <string name="summary_pref_domestic_dns">DNS</string>
+
+    <string name="title_pref_proxy_sharing_enabled">Leisti prisijungti iš LAN</string>
+    <string name="summary_pref_proxy_sharing_enabled">Kiti įrenginiai gali prisijungti prie tarpinio serverio pagal jūsų IP adresą per socks/http, įgalinkite tik patikimame tinkle, kad išvengtumėte neteisėto ryšio</string>
+    <string name="toast_warning_pref_proxysharing_short">Leiskite prisijungti iš LAN, įsitikinkite, kad esate patikimame tinkle</string>
+
+    <string name="title_pref_allow_insecure">leisti Nesaugus</string>
+    <string name="summary_pref_allow_insecure">Kai TLS, numatytasis allowInsecure</string>
+
+    <string name="title_pref_socks_port">SOCKS5 tarpinio serverio prievadas</string>
+    <string name="summary_pref_socks_port">SOCKS5 tarpinio serverio prievadas</string>
+
+    <string name="title_pref_http_port">HTTP tarpinio serverio prievadas</string>
+    <string name="summary_pref_http_port">HTTP tarpinio serverio prievadas</string>
+
+    <string name="title_pref_local_dns_port">Vietinis DNS prievadas</string>
+    <string name="summary_pref_local_dns_port">Vietinis DNS prievadas</string>
+
+    <string name="title_pref_confirm_remove">Ištrinti konfigūracijos failo patvirtinimą</string>
+    <string name="summary_pref_confirm_remove">Norint ištrinti konfigūracijos failą, vartotojas turi patvirtinti antrą kartą</string>
+
+    <string name="title_pref_start_scan_immediate">Nedelsdami pradėkite nuskaitymą</string>
+    <string name="summary_pref_start_scan_immediate">Atidarykite fotoaparatą, kad nuskaitytumėte iškart paleidus, kitu atveju galite pasirinkti nuskaityti kodą arba pasirinkti nuotrauką įrankių juostoje</string>
+
+    <string name="title_pref_feedback">Atsiliepimas</string>
+    <string name="summary_pref_feedback">Atsiliepimai apie „GitHub“ patobulinimus ar klaidas</string>
+    <string name="summary_pref_tg_group">Prisijunkite prie Telegram grupės</string>
+    <string name="toast_tg_app_not_found">Telegram programa nerasta</string>
+
+    <string name="title_pref_promotion">Skatinimas</string>
+    <string name="summary_pref_promotion">Reklama, spustelėkite norėdami sužinoti daugiau (auka gali būti pašalinta)</string>
+
+    <string name="title_core_loglevel">Žurnalo lygis</string>
+    <string name="title_mode">Režimas</string>
+    <string name="title_mode_help">Spustelėkite mane, kad gautumėte daugiau pagalbos</string>
+    <string name="title_language">Kalba</string>
+    <string name="title_ui_settings">UI nustatymai</string>
+
+    <string name="title_logcat">Logcat</string>
+    <string name="logcat_copy">Kopijuoti</string>
+    <string name="logcat_clear">Aišku</string>
+    <string name="title_service_restart">Paslaugos paleidimas iš naujo</string>
+    <string name="title_del_all_config">Ištrinti visą konfigūraciją</string>
+    <string name="title_del_duplicate_config">Ištrinkite pasikartojančią konfigūraciją</string>
+    <string name="title_del_invalid_config">Ištrinkite netinkamą konfigūraciją (pirmiausia išbandykite)</string>
+    <string name="title_export_all">Eksportuokite nepriskirtines konfigūracijas į mainų sritį</string>
+    <string name="title_sub_setting">Prenumeratos grupės nustatymas</string>
+    <string name="sub_setting_remarks">pastabas</string>
+    <string name="sub_setting_url">Pasirenkamas URL</string>
+    <string name="sub_setting_enable">įgalinti naujinimą</string>
+    <string name="title_sub_update">Atnaujinti prenumeratą</string>
+    <string name="title_ping_all_server">Tcping visos konfigūracijos</string>
+    <string name="title_real_ping_all_server">Tikras visos konfigūracijos atidėjimas</string>
+    <string name="title_user_asset_setting">Geografinių išteklių failai</string>
+    <string name="title_sort_by_test_results">Rūšiavimas pagal testo rezultatus</string>
+    <string name="title_filter_config">Filtro konfigūracijos failas</string>
+    <string name="filter_config_all">Visos prenumeratos grupės</string>
+    <string name="title_del_duplicate_config_count">Ištrinti %d pasikartojančių konfigūracijų</string>
+    <string name="tasker_start_service">Pradėti paslaugą</string>
+    <string name="tasker_setting_confirm">Patvirtinti</string>
+
+    <string name="routing_settings_title">Maršruto nustatymai</string>
+    <string name="routing_settings_tips">Atskirti kableliais (,), nepamirškite išsaugoti</string>
+    <string name="routing_settings_save">Sutaupyti</string>
+    <string name="routing_settings_delete">Aišku</string>
+    <string name="routing_settings_scan_replace">Nuskaitykite ir pakeiskite</string>
+    <string name="routing_settings_scan_append">Nuskaitykite ir pridėkite</string>
+    <string name="routing_settings_default_rules">nustatyti numatytąsias maršruto parinkimo taisykles</string>
+
+    <string name="connection_test_pending">Patikrinkite ryšį</string>
+    <string name="connection_test_testing">Bandoma…</string>
+    <string name="connection_test_available">Sėkmė: HTTP ryšys užtruko %dms</string>
+    <string name="connection_test_error">Nepavyko aptikti interneto ryšio: %s</string>
+    <string name="connection_test_fail">Internetas nepasiekiamas</string>
+    <string name="connection_test_error_status_code">Klaidos kodas: #%d</string>
+    <string name="connection_connected">Prisijungta, palieskite, kad patikrintumėte ryšį</string>
+    <string name="connection_not_connected">Neprisijungęs</string>
+
+    <string name="import_subscription_success">Prenumerata sėkmingai importuota</string>
+    <string name="import_subscription_failure">Nepavyko importuoti prenumeratos</string>
+    <string name="about">Apie</string>
+    <string name="v2ray_client">V2ray klientas, skirtas Android</string>
+    <string name="about_the_app">Apie programėlę</string>
+    <string name="welcome">Sveiki atvykę į „LuxeV2Ray“ kliento programą! Mūsų programa leidžia lengvai prisijungti prie V2Ray serverių, suteikdama saugų ir privatų būdą prisijungti prie interneto.</string>
+    <string name="developer">Programuotojas</string>
+    <string name="app_developer">Programėlių kūrėjas</string>
+    <string name="special_thanks">Ypatingas ačiū</string>
+    <string name="vpn_hotspot">VPN Hotspot</string>
+    <string name="ip_location">IP vieta</string>
+    <string name="proxy_is_running">Proxy veikia</string>
+    <string name="proxy_not_running">Proxy neveikia</string>
+    <string name="use_system_proxy_as_next_socks_proxy">Naudoti sistemos proxy kaip kitą Socks proxy</string>
+    <string name="start">Pradėti</string>
+    <string name="stop">Sustabdyti</string>
+    <string name="open_wi_fi_settings">Atidaryti belaidžio interneto nustatymus:</string>
+    <string name="ip_192_168_43_1">IP: 192.168.43.1</string>
+    <string name="inside_the_wi_fi_network_settings_look_for_an_option_called_proxy_or_advanced_settings_tap_on_it_and_select_manual_enter_the_proxy_hostname_and_port_number">Belaidžio interneto nustatymuose ieškokite parinkties, vadinamos \'Proxy\' arba \'Papildomi nustatymai\'. Paspauskite ant jos ir pasirinkite \'Rankinis įvedimas\'. Įveskite proxy serverio pavadinimą ir prievado numerį:</string>
+    <string name="set_proxy_settings">Nustatyti proxy nustatymus:</string>
+    <string name="under_the_wireless_amp_networ_amp_s_or_connections_section_find_and_tap_on_wi_fi_here_you_ll_see_a_list_of_available_networks_tap_the_wi_fi_network_you_re_connected_to_or_want_to_connect_to"><![CDATA[Pasirinkite \'Belaidžio interneto ir tinklo\' arba \'Ryšių\' skyrių ir paspauskite \'Wi-Fi\'. Čia pamatysite sąrašą prieinamų tinklų. Paspauskite ant Wi-Fi tinklo, prie kurio esate prijungęs arba norite prisijungti.]]></string>
+    <string name="select_wi_fi_network">Pasirinkite belaidį interneto tinklą:</string>
+    <string name="go_to_your_android_device_s_settings_menu_depending_on_your_device_this_might_be_accessed_through_an_icon_in_the_apps_menu_or_by_pulling_down_the_notification_bar_and_tapping_the_gear_icon">Eikite į savo Android įrenginio nustatymų meniu. Priklauso nuo jūsų įrenginio, tai gali būti pasiekiama per piktogramą programų meniu arba ištraukiant pranešimų juostą ir paspaudus varžtą ikoną.</string>
+
+    <string-array name="share_method">
+        <item>QR kodas</item>
+        <item>Eksportuoti į mainų sritį</item>
+        <item>Eksportuokite visą konfigūraciją į mainų sritį</item>
+    </string-array>
+
+    <string-array name="share_sub_method">
+        <item>QR kodas</item>
+        <item>Eksportuoti į mainų sritį</item>
+    </string-array>
+
+    <string-array name="routing_tag">
+        <item>tarpinio serverio URL arba IP</item>
+        <item>tiesioginis URL arba IP</item>
+        <item>užblokuotas URL arba IP</item>
+    </string-array>
+
+    <string-array name="routing_mode">
+        <item>Pasaulinis tarpinis serveris</item>
+        <item>Apeinant LAN adresą, tada tarpinį serverį</item>
+        <item>Apeiti žemyno adresą, tada tarpinį serverį</item>
+        <item>Apeinant LAN ir žemyno adresą, tada tarpinį serverį</item>
+        <item>Tiesioginis pasaulinis</item>
+    </string-array>
+
+    <string-array name="mode_entries">
+        <item>VPN</item>
+        <item>Tik tarpinis serveris</item>
+    </string-array>
+
+</resources>

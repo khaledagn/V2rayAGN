@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.agn.daynightswitch.DayNightSwitch
+    android:id="@+id/switch_item"
+    android:layout_width="52.7dp"
+    android:layout_height="23dp"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

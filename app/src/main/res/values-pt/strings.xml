@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_widget_name">Trocar</string>
+    <string name="app_tile_name">Trocar</string>
+    <string name="app_tile_first_use">Primeiro uso deste recurso, use o aplicativo para adicionar servidor</string>
+    <string name="navigation_drawer_open">Abrir gaveta de navegação</string>
+    <string name="navigation_drawer_close">Fechar gaveta de navegação</string>
+    <string name="migration_success">Sucesso na migração de dados!</string>
+    <string name="migration_fail">A migração de dados falhou!</string>
+
+    <!-- Notifications -->
+    <string name="notification_action_stop_v2ray">Parar</string>
+    <string name="toast_permission_denied">Não foi possível obter a permissão</string>
+    <string name="notification_action_more">clique para mais</string>
+    <string name="toast_services_start">Iniciar serviços</string>
+    <string name="toast_services_stop">Parar serviços</string>
+    <string name="toast_services_success">Iniciar serviços com sucesso</string>
+    <string name="toast_services_failure">Falha no início dos serviços</string>
+    <string name="title_privacy_policy">Política de Privacidade</string>
+    <!--ServerActivity-->
+    <string name="title_server">Arquivo de configuração</string>
+    <string name="menu_item_add_config">Adicionar configuração</string>
+    <string name="menu_item_save_config">Salvar configuração</string>
+    <string name="menu_item_del_config">Excluir configuração</string>
+    <string name="menu_item_import_config_qrcode">Importar configuração do QRcode</string>
+    <string name="menu_item_import_config_clipboard">Importar configuração da área de transferência</string>
+    <string name="menu_item_import_config_manually_vmess">Digite manualmente[Vmess]</string>
+    <string name="menu_item_import_config_manually_vless">Digite manualmente[VLESS]</string>
+    <string name="menu_item_import_config_manually_ss">Digite manualmente[Shadowsocks]</string>
+    <string name="menu_item_import_config_manually_socks">Digite manualmente[Meias]</string>
+    <string name="menu_item_import_config_manually_trojan">Digite manualmente[Trojan]</string>
+    <string name="menu_item_import_config_custom">Configuração personalizada</string>
+    <string name="menu_item_import_config_custom_clipboard">Importar configuração personalizada da área de transferência</string>
+    <string name="menu_item_import_config_custom_local">Importar configuração personalizada localmente</string>
+    <string name="menu_item_import_config_custom_url">Importar configuração personalizada do URL</string>
+    <string name="menu_item_import_config_custom_url_scan">Importar URL de verificação de configuração personalizada</string>
+    <string name="del_config_comfirm">Confirmar exclusão？</string>
+    <string name="server_lab_remarks">observações</string>
+    <string name="server_lab_address">endereço</string>
+    <string name="server_lab_port">porta</string>
+    <string name="server_lab_id">eu ia</string>
+    <string name="server_lab_alterid">alterId</string>
+    <string name="server_lab_security">segurança</string>
+    <string name="server_lab_network">Rede</string>
+    <string name="server_lab_more_function">Transporte</string>
+    <string name="server_lab_head_type">tipo de cabeça</string>
+    <string name="server_lab_mode_type">modo gRPC</string>
+    <string name="server_lab_request_host">solicitar host (host/ws host/h2 host)/segurança QUIC</string>
+    <string name="server_lab_path">caminho (caminho ws/caminho h2)/chave QUIC/semente kcp/gRPC serviceName</string>
+    <string name="server_lab_stream_security">TLS</string>
+    <string name="server_lab_stream_fingerprint" translatable="false">Fingerprint</string>
+    <string name="server_lab_stream_alpn" translatable="false">Alpn</string>
+    <string name="server_lab_allow_insecure">permitirInseguro</string>
+    <string name="server_lab_sni">SNI</string>
+    <string name="server_lab_address3">endereço</string>
+    <string name="server_lab_port3">porta</string>
+    <string name="server_lab_id3">senha</string>
+    <string name="server_lab_security3">segurança</string>
+    <string name="server_lab_id4">Senha (opcional)</string>
+    <string name="server_lab_security4">Usuário (opcional)</string>
+    <string name="server_lab_encryption">criptografia</string>
+    <string name="server_lab_flow">fluxo</string>
+    <string name="server_lab_public_key" translatable="false">PublicKey</string>
+    <string name="server_lab_short_id" translatable="false">ShortId</string>
+    <string name="server_lab_spider_x" translatable="false">SpiderX</string>
+    <string name="toast_success">Sucesso</string>
+    <string name="toast_failure">Falha</string>
+    <string name="toast_none_data">Não há nada</string>
+    <string name="toast_incorrect_protocol">Protocolo incorreto</string>
+    <string name="toast_decoding_failed">Falha na decodificação</string>
+    <string name="title_file_chooser">Selecione um arquivo de configuração</string>
+    <string name="toast_require_file_manager">Instale um gerenciador de arquivos.</string>
+    <string name="server_customize_config">Personalizar configuração</string>
+    <string name="toast_config_file_invalid">Configuração inválida</string>
+    <string name="server_lab_content">Contente</string>
+    <string name="toast_none_data_clipboard">Não há dados na área de transferência</string>
+    <string name="toast_invalid_url">URL inválida</string>
+    <string name="server_lab_need_inbound">Certifique-se de que a porta de entrada seja consistente com as configurações</string>
+    <string name="toast_malformed_josn">Configuração malformada</string>
+    <string name="server_lab_request_host6">Host(SNI)(Opcional)</string>
+    <string name="toast_asset_copy_failed">Falha na cópia do arquivo, use o Gerenciador de Arquivos</string>
+    <string name="menu_item_add_file">Adicionar arquivos</string>
+    <string name="menu_item_download_file">Baixar arquivos</string>
+
+    <!-- PerAppProxyActivity -->
+    <string name="msg_dialog_progress">Carregando</string>
+    <string name="menu_item_search">Procurar</string>
+    <string name="menu_item_select_all">Selecionar tudo</string>
+    <string name="msg_enter_keywords">Digite palavras-chave</string>
+    <string name="switch_bypass_apps_mode">Modo de ignorar</string>
+    <string name="menu_item_select_proxy_app">Seleção automática de aplicativo proxy</string>
+    <string name="msg_downloading_content">Baixando conteúdo</string>
+    <string name="menu_item_export_proxy_app">Exportar para a área de transferência</string>
+    <string name="menu_item_import_proxy_app">Importar da área de transferência</string>
+
+
+    <!-- Preferences -->
+    <string name="title_settings">Configurações</string>
+    <string name="title_advanced">Configurações avançadas</string>
+    <string name="title_vpn_settings">Configurações de VPN</string>
+    <string name="title_pref_per_app_proxy">Proxy por aplicativo</string>
+    <string name="summary_pref_per_app_proxy">Geral: O aplicativo verificado é proxy, conexão direta desmarcada; \nmodo bypass: aplicativo verificado conectado diretamente, proxy desmarcado. \nA opção de selecionar automaticamente o aplicativo proxy no menu</string>
+
+    <string name="title_pref_mux_enabled">Habilitar Mux</string>
+    <string name="summary_pref_mux_enabled">Ative talvez acelere a rede e troque de rede talvez flash</string>
+
+    <string name="title_pref_speed_enabled">Ativar exibição de velocidade</string>
+    <string name="summary_pref_speed_enabled">Exibe a velocidade atual na notificação.\nO ícone de notificação mudaria com base em
+         uso.</string>
+
+    <string name="title_pref_sniffing_enabled">Ativar detecção</string>
+    <string name="summary_pref_sniffing_enabled">Tente farejar o domínio do pacote (ativado por padrão)</string>
+
+    <string name="title_pref_local_dns_enabled">Habilitar DNS local</string>
+    <string name="summary_pref_local_dns_enabled">DNS processado pelo módulo DNS do núcleo (recomendado, se necessário roteamento Ignorando LAN e
+         endereço no continente)</string>
+
+    <string name="title_pref_fake_dns_enabled">Habilitar DNS falso</string>
+    <string name="summary_pref_fake_dns_enabled">DNS local retorna endereço IP falso (mais rápido, mas pode não funcionar para alguns aplicativos)</string>
+
+    <string name="title_pref_prefer_ipv6">Prefira IPv6</string>
+    <string name="summary_pref_prefer_ipv6">Prefira endereços e rotas IPv6</string>
+
+    <string name="title_pref_routing">Roteamento</string>
+    <string name="title_pref_routing_domain_strategy">Estratégia de domínio</string>
+    <string name="title_pref_routing_mode">Regras predefinidas</string>
+    <string name="title_pref_routing_custom">Regras personalizadas</string>
+
+    <string name="title_pref_remote_dns">DNS remoto (opcional)</string>
+    <string name="summary_pref_remote_dns">DNS</string>
+
+    <string name="title_pref_vpn_dns">DNS VPN (somente IPv4/v6)</string>
+
+    <string name="title_pref_domestic_dns">DNS doméstico (opcional)</string>
+    <string name="summary_pref_domestic_dns">DNS</string>
+
+    <string name="title_pref_proxy_sharing_enabled">Permitir conexões da LAN</string>
+    <string name="summary_pref_proxy_sharing_enabled">Outros dispositivos podem se conectar ao proxy pelo seu endereço IP através de meias/http. Ative apenas em rede confiável para evitar conexão não autorizada</string>
+    <string name="toast_warning_pref_proxysharing_short">Permitir conexões da LAN, verifique se você está em uma rede confiável</string>
+
+    <string name="title_pref_allow_insecure">permitirInseguro</string>
+    <string name="summary_pref_allow_insecure">Quando TLS, o padrão AllowInsecure</string>
+
+    <string name="title_pref_socks_port">Porta proxy SOCKS5</string>
+    <string name="summary_pref_socks_port">Porta proxy SOCKS5</string>
+
+    <string name="title_pref_http_port">Porta proxy HTTP</string>
+    <string name="summary_pref_http_port">Porta proxy HTTP</string>
+
+    <string name="title_pref_local_dns_port">Porta DNS local</string>
+    <string name="summary_pref_local_dns_port">Porta DNS local</string>
+
+    <string name="title_pref_confirm_remove">Excluir confirmação do arquivo de configuração</string>
+    <string name="summary_pref_confirm_remove">A exclusão do arquivo de configuração requer uma segunda confirmação por parte do usuário</string>
+
+    <string name="title_pref_start_scan_immediate">Comece a digitalizar imediatamente</string>
+    <string name="summary_pref_start_scan_immediate">Abra a câmera para digitalizar imediatamente na inicialização, caso contrário você pode optar por digitalizar o código ou selecionar uma foto na barra de ferramentas</string>
+
+    <string name="title_pref_feedback">Opinião</string>
+    <string name="summary_pref_feedback">Melhorias de feedback ou bugs no GitHub</string>
+    <string name="summary_pref_tg_group">Junte-se ao grupo Telegram</string>
+    <string name="toast_tg_app_not_found">Aplicativo Telegram não encontrado</string>
+
+    <string name="title_pref_promotion">Promoção</string>
+    <string name="summary_pref_promotion">Promoção, clique para detalhes (a doação pode ser removida)</string>
+
+    <string name="title_core_loglevel">Nível de registro</string>
+    <string name="title_mode">Modo</string>
+    <string name="title_mode_help">Clique em mim para obter mais ajuda</string>
+    <string name="title_language">Linguagem</string>
+    <string name="title_ui_settings">Configurações da IU</string>
+
+    <string name="title_logcat">Logcat</string>
+    <string name="logcat_copy">cópia de</string>
+    <string name="logcat_clear">Claro</string>
+    <string name="title_service_restart">Reinicialização do serviço</string>
+    <string name="title_del_all_config">Excluir todas as configurações</string>
+    <string name="title_del_duplicate_config">Excluir configuração duplicada</string>
+    <string name="title_del_invalid_config">Excluir configuração inválida (teste primeiro)</string>
+    <string name="title_export_all">Exportar configurações não personalizadas para a área de transferência</string>
+    <string name="title_sub_setting">Configuração do grupo de assinaturas</string>
+    <string name="sub_setting_remarks">observações</string>
+    <string name="sub_setting_url">URL opcional</string>
+    <string name="sub_setting_enable">ativar atualização</string>
+    <string name="title_sub_update">Atualizar assinatura</string>
+    <string name="title_ping_all_server">Tcping todas as configurações</string>
+    <string name="title_real_ping_all_server">Atraso real em todas as configurações</string>
+    <string name="title_user_asset_setting">Arquivos de ativos geográficos</string>
+    <string name="title_sort_by_test_results">Classificando por resultados de teste</string>
+    <string name="title_filter_config">Arquivo de configuração de filtro</string>
+    <string name="filter_config_all">Todos os grupos de assinatura</string>
+    <string name="title_del_duplicate_config_count">Excluir %d configurações duplicadas</string>
+    <string name="tasker_start_service">Começar serviço</string>
+    <string name="tasker_setting_confirm">confirme</string>
+
+    <string name="routing_settings_title">Configurações de roteamento</string>
+    <string name="routing_settings_tips">Separados por vírgula (,), lembre-se de salvar</string>
+    <string name="routing_settings_save">Salvar</string>
+    <string name="routing_settings_delete">Claro</string>
+    <string name="routing_settings_scan_replace">Digitalizar e substituir</string>
+    <string name="routing_settings_scan_append">Digitalizar e anexar</string>
+    <string name="routing_settings_default_rules">definir regras de roteamento padrão</string>
+
+    <string name="connection_test_pending">Verifique a conectividade</string>
+    <string name="connection_test_testing">Testando…</string>
+    <string name="connection_test_available">Sucesso: conexão HTTP demorou %dms</string>
+    <string name="connection_test_error">Falha ao detectar conexão com a Internet: %s</string>
+    <string name="connection_test_fail">Internet indisponível</string>
+    <string name="connection_test_error_status_code">Código de erro: #%d</string>
+    <string name="connection_connected">Conectado, toque para verificar a conexão</string>
+    <string name="connection_not_connected">Não conectado</string>
+
+    <string name="import_subscription_success">Assinatura importada com sucesso</string>
+    <string name="import_subscription_failure">Falha na assinatura de importação</string>
+    <string name="about">Sobre</string>
+    <string name="v2ray_client">Cliente V2ray para Android</string>
+    <string name="about_the_app">Sobre o aplicativo</string>
+    <string name="welcome">Bem-vindo ao aplicativo cliente LuxeV2Ray! Nosso aplicativo permite que você se conecte facilmente aos servidores V2Ray, fornecendo uma maneira segura e privada de acessar a Internet.</string>
+    <string name="developer">Desenvolvedor</string>
+    <string name="app_developer">Desenvolvedor de aplicativos</string>
+    <string name="special_thanks">Agradecimentos especiais</string>
+    <string name="vpn_hotspot">VPN Hotspot</string>
+    <string name="ip_location">Localização do IP</string>
+    <string name="proxy_is_running">O proxy está em execução</string>
+    <string name="proxy_not_running">O proxy não está em execução</string>
+    <string name="use_system_proxy_as_next_socks_proxy">Usar o proxy do sistema como próximo proxy SOCKS</string>
+    <string name="start">Iniciar</string>
+    <string name="stop">Parar</string>
+    <string name="open_wi_fi_settings">Abrir Configurações de Wi-Fi:</string>
+    <string name="ip_192_168_43_1">IP: 192.168.43.1</string>
+    <string name="inside_the_wi_fi_network_settings_look_for_an_option_called_proxy_or_advanced_settings_tap_on_it_and_select_manual_enter_the_proxy_hostname_and_port_number">Dentro das configurações de rede Wi-Fi, procure por uma opção chamada \'Proxy\' ou \'Configurações avançadas\'. Toque nela e selecione \'Manual\'. Insira o nome do host do proxy e o número da porta:</string>
+    <string name="set_proxy_settings">Configurar Configurações do Proxy:</string>
+    <string name="under_the_wireless_amp_networ_amp_s_or_connections_section_find_and_tap_on_wi_fi_here_you_ll_see_a_list_of_available_networks_tap_the_wi_fi_network_you_re_connected_to_or_want_to_connect_to"><![CDATA[Sob a seção \'Sem fio e redes\' ou \'Conexões\', encontre e toque em \'Wi-Fi\'. Aqui, você verá uma lista de redes disponíveis. Toque na rede Wi-Fi à qual você está conectado ou deseja se conectar.]]></string>
+    <string name="select_wi_fi_network">Selecionar Rede Wi-Fi:</string>
+    <string name="go_to_your_android_device_s_settings_menu_depending_on_your_device_this_might_be_accessed_through_an_icon_in_the_apps_menu_or_by_pulling_down_the_notification_bar_and_tapping_the_gear_icon">Vá para o menu de configurações do seu dispositivo Android. Dependendo do seu dispositivo, isso pode ser acessado através de um ícone no menu de aplicativos ou puxando a barra de notificações para baixo e tocando no ícone de engrenagem.</string>
+
+    <string-array name="share_method">
+        <item>Código QR</item>
+        <item>Exportar para a área de transferência</item>
+        <item>Exporte a configuração completa para a área de transferência</item>
+    </string-array>
+
+    <string-array name="share_sub_method">
+        <item>Código QR</item>
+        <item>Exportar para a área de transferência</item>
+    </string-array>
+
+    <string-array name="routing_tag">
+        <item>URL ou IP do proxy</item>
+        <item>URL ou IP direto</item>
+        <item>URL ou IP bloqueado</item>
+    </string-array>
+
+    <string-array name="routing_mode">
+        <item>Procuração global</item>
+        <item>Ignorando o endereço LAN e depois o proxy</item>
+        <item>Ignore o endereço do continente e depois o proxy</item>
+        <item>Ignorando a LAN e o endereço do continente e depois o proxy</item>
+        <item>Global direto</item>
+    </string-array>
+
+    <string-array name="mode_entries">
+        <item>VPN</item>
+        <item>Apenas proxy</item>
+    </string-array>
+
+</resources>
