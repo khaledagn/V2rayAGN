@@ -31,7 +31,6 @@ Download the app directly from the Google Play Store:
 
     Open V2rayAGN.
     Configure your server settings or import from a pre-existing configuration.
-    Choose your preferred language and theme from the settings.
     Connect and enjoy secure and private browsing.
 
 #### Contributions
