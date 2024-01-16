@@ -4,7 +4,7 @@
 
 #### Introduction
 
-Welcome to V2rayAGN, an advanced and user-friendly V2Ray client for Android devices, based on the popular <a href="[https://t.me/khaledagn](https://github.com/2dust/v2rayNG/)">v2rayNG</a> codebase. Our app is designed to provide a seamless and secure browsing experience, now with added features and improvements for an even better user experience.
+Welcome to V2rayAGN, an advanced and user-friendly V2Ray client for Android devices, based on the popular [v2rayNG](https://github.com/2dust/v2rayNG) codebase. Our app is designed to provide a seamless and secure browsing experience, now with added features and improvements for an even better user experience.
 Features
     - Dark Mode: A sleek and eye-friendly interface for nighttime browsing.
     - Improved Language Selection: Enhanced multilingual support for a global user base.
@@ -46,4 +46,4 @@ This project is licensed under [GPL-3.0] - see the LICENSE file for details.
 
 # Acknowledgments
 
-Thanks to the creators of <p> <a href="[https://t.me/khaledagn](https://github.com/2dust/v2rayNG/)">v2rayNG</a></p> for their foundational work.
+Thanks to the creators of [v2rayNG](https://github.com/2dust/v2rayNG) for their foundational work.
