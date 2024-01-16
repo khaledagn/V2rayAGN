@@ -1,6 +1,6 @@
 # V2rayAGN - Enhanced V2Ray Client for Android
 
-[![Telegram](https://img.shields.io/badge/Chat%20on-Telegram-brightgreen.svg)](https://t.me/khaledagn)
+[![Telegram][(https://img.shields.io/badge/Telegram%20Channel-blue)](https://t.me/khaledagn)
 
 #### Introduction
 
