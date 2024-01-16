@@ -46,4 +46,4 @@ This project is licensed under [GPL-3.0] - see the LICENSE file for details.
 
 # Acknowledgments
 
-Thanks to the creators of <a href="[https://t.me/khaledagn](https://github.com/2dust/v2rayNG/)">v2rayNG</a> for their foundational work.
+Thanks to the creators of <p> <a href="[https://t.me/khaledagn](https://github.com/2dust/v2rayNG/)">v2rayNG</a></p> for their foundational work.
