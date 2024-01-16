@@ -41,7 +41,7 @@ For support or bug reporting, please open an issue in the GitHub repository.
 
 # License
 
-This project is licensed under [GPL-3.0] - see the LICENSE file for details.
+This project is licensed under [GPL-3.0] - see the [LICENSE](https://github.com/khaledagn/V2rayAGN/blob/main/LICENSE) file for details.
 
 
 # Acknowledgments
